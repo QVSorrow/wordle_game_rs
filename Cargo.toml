@@ -1,0 +1,15 @@
+[package]
+name = "wordle_game"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
+arrayvec = "0.7"
+itertools = "0.10"
+owo-colors = "3.2"
+base64 = "0.13"
